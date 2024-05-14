@@ -1,14 +1,15 @@
-let input1 = document.getElementById("input1");
 let inputDrugi = document.getElementById("input2");
 
 function fokusIn() {
   console.log("Događaj na fokusIn");
-  input1.style.backgroundColor = "yellow";
+  let inp1 = document.getElementById("input1");
+  inp1.style.backgroundColor = "yellow";
 }
 
 function fokusOut() {
   console.log("Događaj na fokusOut");
-  input1.style.backgroundColor = "red";
+  let inp = document.getElementById("input1");
+  inp.style.backgroundColor = "red";
 }
 
 function klikButton() {
